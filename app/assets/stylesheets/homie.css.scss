@@ -1,3 +1,28 @@
 // Place all the styles related to the homie controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.es-logo-anchor{
+	height: 100%;
+	img{
+		height: 100%;
+		display: inline-block;
+	}
+}
+
+.es-parallax-container{
+	height: 640px;
+	.valign-wrapper{
+		height: 100%;
+		.es-main-btn{
+			border: 1px solid white;
+		}
+		#es-main-title{
+			letter-spacing: 10px;
+			margin-bottom: 40px;
+		}
+	}
+}
+
+.es-footer{
+	margin-top: 0px !important;
+}
