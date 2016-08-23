@@ -10,18 +10,79 @@
 }
 
 .es-parallax-container{
-	height: 640px;
+	//height: 640px;
 	.valign-wrapper{
 		height: 100%;
+      #es-brandtop{
+        font-family: "Lucida Console";
+        margin-bottom: 0px;
+        font-stretch: extra-expanded;
+        font-size: 80px;
+
+      }
+      #es-brandbottom{
+        font-family: "Lucida Console";
+        margin-top: 0px;
+        line-height:1%;
+        font-weight: 100;
+
+      }
 		.es-main-btn{
-			border: 1px solid white;
+			border: 3px solid white;
+            padding-left: 10px;
+            padding-right: 10px;
 		}
 		#es-main-title{
+          padding-top: 30px;
 			letter-spacing: 10px;
 			margin-bottom: 40px;
+          letter-spacing: 30px;
+          font-weight: 200;
+          
 		}
+
+
+
+
 	}
 }
+.second-parallax-container{
+  .valign-wrapper {
+    height: 100%;
+    #es-second-title {
+      display: inline;
+      //font: "Arial"
+      font-size: 40px;
+      font-weight: lighter;
+
+
+
+
+    }
+  }
+
+}
+
+.third-parallax-container{
+  .valign-wrapper {
+    height: 100%;
+    .container {
+      width: 85%;
+    }
+
+    #es-third-title {
+      display: inline;
+      //font: "Arial"
+      font-size: 40px;
+      font-weight: lighter;
+    }
+
+
+
+
+    }
+  }
+
 
 .es-footer{
 	margin-top: 0px !important;
