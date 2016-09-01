@@ -34,11 +34,11 @@
 		}
 		#es-main-title{
           padding-top: 30px;
-			letter-spacing: 10px;
+
 			margin-bottom: 40px;
           letter-spacing: 30px;
           font-weight: 200;
-          
+
 		}
 
 
@@ -57,8 +57,12 @@
 
 
 
-
     }
+    .marginSetter{
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+
   }
 
 }
@@ -80,10 +84,20 @@
 
 
 
+
     }
   }
 
+.twopics{
 
+
+
+  img {
+    width:400px;
+    height:400px;
+  }
+
+}
 .es-footer{
 	margin-top: 0px !important;
 }
