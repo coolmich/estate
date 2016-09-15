@@ -6,6 +6,9 @@ Estate::Application.routes.draw do
   root 'homie#index'
 
   get 'profile' => 'homie#profile'
+  get 'strategy' => 'homie#strategy'
+  get 'portfolio' => 'homie#portfolio'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

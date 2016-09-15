@@ -46,17 +46,26 @@
 
 	}
 }
-.second-parallax-container{
+.parallax-container{
   .valign-wrapper {
     height: 100%;
-    #es-second-title {
+
+      #con-middle {
+        width: 85%;
+      }
+    #es-title {
       display: inline;
-      //font: "Arial"
+
       font-size: 40px;
       font-weight: lighter;
 
 
 
+
+    }
+    #top_pic_title {
+      letter-spacing: 8px;
+      font-weight: 300;
     }
     .marginSetter{
       margin-top: 5px;
@@ -67,26 +76,6 @@
 
 }
 
-.third-parallax-container{
-  .valign-wrapper {
-    height: 100%;
-    .container {
-      width: 85%;
-    }
-
-    #es-third-title {
-      display: inline;
-      //font: "Arial"
-      font-size: 40px;
-      font-weight: lighter;
-    }
-
-
-
-
-
-    }
-  }
 
 .twopics{
 
@@ -97,6 +86,72 @@
     height:400px;
   }
 
+}
+.done{
+  .l {
+
+    margin-left: 30%;
+  }
+    .material-icons{
+      position: relative;
+      top:6px;
+      color: teal;
+    }
+
+  }
+.portfolio {
+  .container{
+    position: relative;
+
+  }
+  position: relative;
+  top:40px;
+  .picleft {
+
+    margin-right: 0;
+
+  }
+  .picright {
+    margin-left: 0;
+  }
+    img {
+      height: 250px;
+      width:100%;
+
+    }
+  p {
+
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+
+
+
+
+    .top_p{
+      top:40%;
+      font-size: 170%;
+      letter-spacing: 3px;
+      font-weight: 200;
+
+    }
+    .bottom_p{
+      top:55%;
+      font-weight: 200;
+      font-size: 120%;
+
+    }
+  }
+
+
+
+
+.strategy-font {
+  font-size: 130%;
+  color: grey;
+  font-weight: lighter;
 }
 .es-footer{
 	margin-top: 0px !important;

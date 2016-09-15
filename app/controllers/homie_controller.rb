@@ -4,4 +4,10 @@ class HomieController < ApplicationController
 
 	def profile
 	end
+
+	def strategy
+	end
+
+	def portfolio
+	end
 end
