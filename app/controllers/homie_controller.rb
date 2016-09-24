@@ -10,4 +10,16 @@ class HomieController < ApplicationController
 
 	def portfolio
 	end
+
+	def susanLew
+	end
+
+	def stephenLew
+	end
+
+	def details
+	end
+
+
+
 end

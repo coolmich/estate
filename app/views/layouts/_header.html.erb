@@ -1,6 +1,9 @@
 <nav class="grey lighten-5">
 	<div class="nav-wrapper">
-	  <a href="#" class="brand-logo es-logo-anchor"><%= image_tag "s_logo.png"%></a>
+	  <!--<a href="#" class="brand-logo es-logo-anchor"><%= image_tag "s_logo.png"%></a>-->
+    <a>
+      <%= link_to link_to image_tag("s_logo.png"),root_path, :class => "brand-logo es-logo-anchor"%>
+    </a>
 	  <ul id="nav-mobile" class="right hide-on-med-and-down">
 	    <li>
 	    	<%= link_to "HOME", root_path, :class=>"grey-text text-lighten-1"%>

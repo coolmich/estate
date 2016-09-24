@@ -8,6 +8,12 @@ Estate::Application.routes.draw do
   get 'profile' => 'homie#profile'
   get 'strategy' => 'homie#strategy'
   get 'portfolio' => 'homie#portfolio'
+  get 'susanLew' => 'homie#susanLew'
+  get 'stephenLew' => 'homie#stephenLew'
+  get 'details' => 'homie#details'
+
+
+
 
 
   # Example of regular route:

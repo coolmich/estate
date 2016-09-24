@@ -18,9 +18,14 @@
   <div class="row">
   <div class="col s6 ">
     <div class="container twopics" style="margin-right: 0">
+      <div class="container pics">
     <h6 class = "grey-text">Founder & CEO</h6>
     <h3> Susan Lew</h3>
       <img class="responsive-img" src="/assets/susan.jpg">
+
+        <%= link_to "KNOW MORE", susanLew_path, :class=>"waves-effect waves-light btn knowMore grey darken-3"%>
+
+      </div>
       <div class="container">
         <p>T : 858.565.8333 ext. 201</p>
         <p>E : susanlew@slewassociates.com</p>
@@ -36,8 +41,11 @@
 
 
       <h6 class = "grey-text">President</h6>
-      <h3> Stephen Lew</h3>
+        <div class="container pics">
+        <h3> Stephen Lew</h3>
         <img class="responsive-img" src="/assets/steve.jpg">
+          <%= link_to "KNOW MORE", stephenLew_path, :class=>"waves-effect waves-light btn knowMore grey darken-3"%>
+        </div>
         <div class="container">
           <p>T : 858.565.8333 ext. 209</p>
           <p>E : steve@slewassociates.com</p>
@@ -54,4 +62,5 @@
 
 
 </div>
+  </div>
 <%= render 'layouts/footer'%>

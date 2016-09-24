@@ -20,7 +20,9 @@
   <div class="row">
     <div class="col s6 ">
         <div class = "container picleft">
-          <img class="responsive-img" src="/assets/main_bg.jpg">
+          <%= link_to image_tag("/assets/main_bg.jpg"), "/details#park_dashpoint", :class=>"responsive-img"%>
+
+          <!--<img class="responsive-img" src="/assets/main_bg.jpg">-->
           <p class = "top_p">Park at Dashpoint</p>
           <p class="bottom_p">Federal Way, WA</p>
 
@@ -29,7 +31,9 @@
 
     <div class="col s6 ">
       <div class = "container picright">
-        <img class="responsive-img" src="/assets/second.jpg">
+        <%= link_to image_tag("/assets/second.jpg"), "/details#meridian_west", :class=>"responsive-img"%>
+
+        <!--<img class="responsive-img" src="/assets/second.jpg">-->
         <p class = "top_p">Meridian West</p>
         <p class="bottom_p">Puyallup, WA</p>
 
@@ -41,7 +45,9 @@
   <div class="row">
     <div class="col s6 ">
       <div class = "container picleft">
-        <img class="responsive-img" src="/assets/third.jpg">
+        <%= link_to image_tag("/assets/third.jpg"), "/details#waterbrook", :class=>"responsive-img"%>
+
+        <!--<img class="responsive-img" src="/assets/third.jpg">-->
         <p class = "top_p">Waterbrook Lofts & Apartments</p>
         <p class="bottom_p">Kent, WA</p>
 
@@ -50,7 +56,9 @@
 
     <div class="col s6 ">
       <div class = "container picright">
-        <img class="responsive-img" src="/assets/fourth.jpg">
+        <%= link_to image_tag("/assets/fourth.jpg"), "/details#ridgeview", :class=>"responsive-img"%>
+
+        <!--<img class="responsive-img" src="/assets/fourth.jpg">-->
         <p class = "top_p">Ridgeview Apartments</p>
         <p class="bottom_p">Escondido, CA</p>
 
@@ -63,9 +71,11 @@
   <div class="row">
     <div class="col s12 ">
       <div class="container">
-        <img class="responsive-img" src="/assets/vons.jpg">
+        <%= link_to image_tag("/assets/vons.jpg"), "/details#temple_city", :class=>"responsive-img"%>
+
+        <!--<img class="responsive-img" src="/assets/vons.jpg">-->
         <p class = "top_p">Temple City Marketplace</p>
-        <p class="bottom_p">Temple City, CA/p>
+        <p class="bottom_p">Temple City, CA</p>
 
       </div>
 
